@@ -1,0 +1,31 @@
+{
+  "name": "shs",
+  "version": "1.0.0",
+  "description": "Take your shell to a superior level",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron index.js",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GianlucaTarantino/shs.git"
+  },
+  "keywords": [
+    "shs",
+    "ssh",
+    "terminal",
+    "gui",
+    "electron",
+    "js"
+  ],
+  "author": "Gianluca Tarantino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GianlucaTarantino/shs/issues"
+  },
+  "homepage": "https://github.com/GianlucaTarantino/shs#readme",
+  "devDependencies": {
+    "electron": "^8.2.0"
+  }
+}
