@@ -12,6 +12,7 @@ const ptyProcess = pty.spawn(shell, [], {
 });
 
 const xterm = new Terminal({
+    rows: 40,
     'theme': { background: '#04474a' }
 });
 xterm.open(document.getElementById("terminal"));
