@@ -3,11 +3,13 @@ const { ipcMain } = require('electron')
 let win;
 function createWindow () {
     win = new BrowserWindow({
-    width: 1000,
-    height: 900,
-    webPreferences: {
-        nodeIntegration: true
-    }
+        backgroundColor: '#002b36',
+        width: 1000,
+        height: 900,
+        webPreferences: {
+            nodeIntegration: true
+        },
+        icon:'./assets/stilized.png'
     })
     win.loadFile('./views/home.html')
 }
