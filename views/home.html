@@ -4,12 +4,11 @@
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="../styles/style.css">
-    <link rel="stylesheet" href="../node_modules/xterm/css/xterm.css" />
     <link rel="stylesheet" href="../styles/homeStyle.css" />
 </head>
 
 <body class="cyan darken-4">
+
     <ul id="slide-out" class="sidenav sidenav-fixed blue-grey darken-4">
         <li><a class="white-text" id="homeButton">Home</a></li>
         <li><a class="white-text" id="terminalButton">Terminal</a></li>
@@ -21,16 +20,16 @@
         </li>
         <li><a class="subheader grey-text lighten-2">Favorites</a></li>
     </ul>
+
     <div class="main">
         <div class="logoDiv">
-            <img src="../assets/stilized.png">
+            <img src="../assets/stilized.png" id="imgLogo">
         </div>
     </div>
-
-    <script src="../node_modules/xterm/lib/xterm.js"></script>
+    
     <script>const { ipcRenderer } = require('electron')</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="../node_modules/xterm/lib/xterm.js"></script>
     <script src="../scripts/pageSwitch.js"></script>
 </body>
+
 </html>

@@ -1,8 +1,11 @@
 document.getElementById('homeButton').onclick = () => {
-    changePage("home.html")
+    changePage("home.html");
 }
 document.getElementById('terminalButton').onclick = () => {
-    changePage("terminal.html")
+    changePage("terminal.html");
+}
+document.getElementById('sshButton').onclick = () => {
+    changePage("ssh.html");
 }
 
 function changePage(page) {

@@ -1,0 +1,14 @@
+{
+    "amazonaws1": {
+        "name": "Amazon AWS",
+        "last": "05/06/2020",
+        "password": "58393052",
+        "address": "192.168.0.1"
+    },
+    "amazonaws2": {
+        "name": "Heroku",
+        "last": "04/06/2020",
+        "password": "34331951",
+        "address": "198.167.0.2"
+    }
+}
